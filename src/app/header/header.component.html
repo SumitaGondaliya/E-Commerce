@@ -1,0 +1,29 @@
+
+<header>
+    <div class="container">
+        <div class="col-sm-3">
+            <h2>My E-Store</h2>
+        </div>
+        <div class="col-sm-6">
+            <input type = "text" placeholder="Search for Products" [(ngModel)]="searchText"/>
+            <button class="btn-submit" type="submit"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                <path d="M15.5 14h-.79l-.28-.27a6.5 6.5 0 0 0 1.48-5.34c-.47-3.87-3.55-7-7.43-7-4.42 0-8 3.58-8 8s3.58 8 8 8c4.42 0 8-3.58 8-8a8 8 0 0 0-2.5-5.66zM14 15l5 5 2-2-5-5v-2h-2v2z"/>
+                <path d="M0 0h24v24H0z" fill="none"/> 
+            </svg>
+               </button> 
+        </div>
+        <div class="col-sm-3">
+            <a href="cartIcon" href="" routerLink="cart">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                <path d="M20.87 7.71l-3-3A1 1 0 0 0 17 5h-1.92l-.66-1.97a1 1 0 0 0-.96-.68H7.58a1 1 0 0 0-.96.68L6.96 5H5a1 1 0 0 0-.87.49l-3 3a1 1 0 0 0-.13 1.13l2 7A1 1 0 0 0 5 17h14a1 1 0 0 0 .9-.57l2-7a1 1 0 0 0-.13-1.12zM5.87 6h12.26l.65 1.94a1 1 0 0 0 .95.68h3.42l-1.5 5H6.38l-1.5-5h3.43a1 1 0 0 0 .95-.68L5.87 6zm13.2 12H5.93l-1.6-5H19.6z"/>
+                <path d="M8 19a2 2 0 1 0 2 2 2 2 0 0 0-2-2zm0 3a1 1 0 1 1 1-1 1 1 0 0 1-1 1zM16 19a2 2 0 1 0 2 2 2 2 0 0 0-2-2zm0 3a1 1 0 1 1 1-1 1 1 0 0 1-1 1z"/>
+                <path d="M12 13a.99.99 0 0 0-.71.29.98.98 0 0 0-.29.71V18a1 1 0 0 0 1 1 1 1 0 0 0 1-1v-4.59a.98.98 0 0 0-.29-.7.99.99 0 0 0-1.42 0 .98.98 0 0 0 0 1.41A.99.99 0 0 0 12 13z"/>
+              </svg><span>Cart</span><span class="cart">{{totalCartItem}}</span>
+            </a>
+        </div>
+<div class="clearfix">
+
+</div>
+        </div>
+  
+</header>
